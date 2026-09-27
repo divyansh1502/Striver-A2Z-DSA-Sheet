@@ -3,9 +3,10 @@ import java.util.Arrays;
 public class MoveZerosToLast {
     public static void main(String[] args) {
         int[] arr = {1, 2, 0, 0, 3, 5, 8, 9, 0, 4, 0, 0, 2};
-        moveZero(arr);
+        moveZeros2(arr);
         System.out.println(Arrays.toString(arr));
     }
+    // Way 1
     static void moveZero(int[] arr) {
         int j = -1;
         for (int i = 0; i < arr.length; i++) {
@@ -20,6 +21,18 @@ public class MoveZerosToLast {
             if(arr[i] != 0) {
                 swap(arr, i, j);
                 j++;
+            }
+        }
+    }
+    // Way 2
+    static void moveZeros2(int[] arr) {
+        int slow = 0;
+        for (int fast = 0; fast < arr.length; fast++) {
+            if(arr[fast] != 0) {
+                int temp = arr[fast];
+                arr[fast] = arr[slow];
+                arr[slow] = temp;
+                slow++;
             }
         }
     }
