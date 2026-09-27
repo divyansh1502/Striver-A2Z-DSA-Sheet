@@ -1,7 +1,7 @@
 # 🚀 Striver A2Z DSA — Java
 
 <p align="center">
-  <img src="./takeUforward.jpg" alt="TakeUForward" width="90"/>
+  <img src="./images/takeUforward.jpg" alt="TakeUForward" width="100"/>
 </p>
 
 <h2 align="center">Striver's A2Z DSA — My Java Journey</h2>
@@ -10,25 +10,13 @@
   <b>Learn → Think → Code → Debug → Optimize → Repeat.</b>
 </p>
 
-<p align="center">
-  <a href="https://takeuforward.org/profile/divyansh1502">
-    <img src="https://img.shields.io/badge/TakeUForward-divyansh1502-111111?style=for-the-badge&logo=takeuforward&logoColor=white" alt="TakeUForward"/>
-  </a>
-  <a href="https://leetcode.com/u/divyansh1502/">
-    <img src="https://img.shields.io/badge/LeetCode-divyansh1502-111111?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/>
-  </a>
-  <a href="https://github.com/divyansh1502">
-    <img src="https://img.shields.io/badge/GitHub-divyansh1502-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</p>
-
 ---
 
 ## 📖 About
 
 This repository contains my **Java implementations and practice** while following **Striver's A2Z DSA Sheet by TakeUForward**.
 
-The purpose of this repository is to build strong foundations in **Data Structures & Algorithms**, improve problem-solving ability, recognize common patterns, and prepare for technical interviews.
+The goal is to build strong foundations in **Data Structures & Algorithms**, improve problem-solving ability, recognize common patterns, and prepare for technical interviews.
 
 I'm solving and implementing the concepts myself rather than simply copying solutions.
 
@@ -208,7 +196,10 @@ Striver-A2Z/
 │   ├── ...
 │   └── ...
 │
-├── takeUforward.jpg
+├── images/
+│   ├── takeUforward.jpg
+│   ├── leetcode.png
+│   └── gfg.png
 │
 └── README.md
 ```
@@ -298,20 +289,44 @@ This repository is helping me improve:
 
 ---
 
-## 🔗 My Profiles
+## 🔗 My Coding Profiles
 
 <p align="center">
 
 <a href="https://takeuforward.org/profile/divyansh1502">
-<img src="https://img.shields.io/badge/TakeUForward-divyansh1502-111111?style=for-the-badge" alt="TakeUForward"/>
+  <img src="./images/takeUforward.jpg" alt="TakeUForward" width="80"/>
 </a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="https://leetcode.com/u/divyansh1502/">
-<img src="https://img.shields.io/badge/LeetCode-divyansh1502-111111?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/>
+  <img src="./images/leetcode.png" alt="LeetCode" width="80"/>
 </a>
 
-<a href="https://github.com/divyansh1502">
-<img src="https://img.shields.io/badge/GitHub-divyansh1502-111111?style=for-the-badge&logo=github" alt="GitHub"/>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.geeksforgeeks.org/profile/divyanshsipew6">
+  <img src="./images/gfg.png" alt="GeeksforGeeks" width="80"/>
+</a>
+
+</p>
+
+<p align="center">
+
+<a href="https://takeuforward.org/profile/divyansh1502">
+  <b>TakeUForward</b>
+</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://leetcode.com/u/divyansh1502/">
+  <b>LeetCode</b>
+</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.geeksforgeeks.org/profile/divyanshsipew6">
+  <b>GeeksforGeeks</b>
 </a>
 
 </p>
@@ -324,7 +339,7 @@ This repository is helping me improve:
 - [TakeUForward](https://takeuforward.org/)
 - [My TakeUForward Profile](https://takeuforward.org/profile/divyansh1502)
 - [My LeetCode Profile](https://leetcode.com/u/divyansh1502/)
-- [My GitHub](https://github.com/divyansh1502)
+- [My GeeksforGeeks Profile](https://www.geeksforgeeks.org/profile/divyanshsipew6)
 
 ---
 
