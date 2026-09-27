@@ -12,6 +12,50 @@
 
 ---
 
+## 🔗 My Coding Profiles
+
+<p align="center">
+
+<a href="https://takeuforward.org/profile/divyansh1502">
+  <img src="./Images/takeUforward.jpg" alt="TakeUForward" width="75"/>
+</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://leetcode.com/u/divyansh1502/">
+  <img src="./Images/leetcode.png" alt="LeetCode" width="75"/>
+</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.geeksforgeeks.org/profile/divyanshsipew6">
+  <img src="./Images/gfg.png" alt="GeeksforGeeks" width="75"/>
+</a>
+
+</p>
+
+<p align="center">
+
+<a href="https://takeuforward.org/profile/divyansh1502">
+  TakeUForward
+</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://leetcode.com/u/divyansh1502/">
+  LeetCode
+</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.geeksforgeeks.org/profile/divyanshsipew6">
+  GeeksforGeeks
+</a>
+
+</p>
+
+---
+
 ## 📖 About
 
 This repository contains my **Java implementations and practice** while following **Striver's A2Z DSA Sheet by TakeUForward**.
@@ -196,7 +240,7 @@ Striver-A2Z/
 │   ├── ...
 │   └── ...
 │
-├── images/
+├── Images/
 │   ├── takeUforward.jpg
 │   ├── leetcode.png
 │   └── gfg.png
@@ -286,50 +330,6 @@ This repository is helping me improve:
 - 🐛 Debugging
 - 💡 Logical Thinking
 - 🎯 Interview Problem Solving
-
----
-
-## 🔗 My Coding Profiles
-
-<p align="center">
-
-<a href="https://takeuforward.org/profile/divyansh1502">
-  <img src="./Images/takeUforward.jpg" alt="TakeUForward" width="80"/>
-</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://leetcode.com/u/divyansh1502/">
-  <img src="./Images/leetcode.png" alt="LeetCode" width="80"/>
-</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://www.geeksforgeeks.org/profile/divyanshsipew6">
-  <img src="./Images/gfg.png" alt="GeeksforGeeks" width="80"/>
-</a>
-
-</p>
-
-<p align="center">
-
-<a href="https://takeuforward.org/profile/divyansh1502">
-  <b>TakeUForward</b>
-</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://leetcode.com/u/divyansh1502/">
-  <b>LeetCode</b>
-</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://www.geeksforgeeks.org/profile/divyanshsipew6">
-  <b>GeeksforGeeks</b>
-</a>
-
-</p>
 
 ---
 
