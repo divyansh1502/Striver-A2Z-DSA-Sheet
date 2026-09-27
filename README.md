@@ -1,7 +1,7 @@
 # 🚀 Striver A2Z DSA — Java
 
 <p align="center">
-  <img src="./images/takeUforward.jpg" alt="TakeUForward" width="100"/>
+  <img src="./Images/takeUforward.jpg" alt="TakeUForward" width="100"/>
 </p>
 
 <h2 align="center">Striver's A2Z DSA — My Java Journey</h2>
@@ -294,19 +294,19 @@ This repository is helping me improve:
 <p align="center">
 
 <a href="https://takeuforward.org/profile/divyansh1502">
-  <img src="./images/takeUforward.jpg" alt="TakeUForward" width="80"/>
+  <img src="./Images/takeUforward.jpg" alt="TakeUForward" width="80"/>
 </a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="https://leetcode.com/u/divyansh1502/">
-  <img src="./images/leetcode.png" alt="LeetCode" width="80"/>
+  <img src="./Images/leetcode.png" alt="LeetCode" width="80"/>
 </a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="https://www.geeksforgeeks.org/profile/divyanshsipew6">
-  <img src="./images/gfg.png" alt="GeeksforGeeks" width="80"/>
+  <img src="./Images/gfg.png" alt="GeeksforGeeks" width="80"/>
 </a>
 
 </p>
