@@ -11,46 +11,14 @@
 </p>
 
 ---
-
 ## 🔗 My Coding Profiles
 
 <p align="center">
 
-<a href="https://takeuforward.org/profile/divyansh1502">
-  <img src="./Images/takeUforward.jpg" alt="TakeUForward" width="75"/>
-</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://leetcode.com/u/divyansh_5ingh/">
-  <img src="./Images/leetcode.png" alt="LeetCode" width="75"/>
-</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://www.geeksforgeeks.org/profile/divyansh1502">
-  <img src="./Images/gfg.png" alt="GeeksforGeeks" width="75"/>
-</a>
-
-</p>
-
-<p align="center">
-
-<a href="https://takeuforward.org/profile/divyansh1502">
-  TakeUForward
-</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://leetcode.com/u/divyansh_5ingh/">
-  LeetCode
-</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://www.geeksforgeeks.org/profile/divyansh1502">
-  GeeksforGeeks
-</a>
+|                                                          🟢 TakeUForward                                                         |                                                    🟡 LeetCode                                                    |                                                        🟠 GeeksforGeeks                                                       |
+| :------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: |
+| <a href="https://takeuforward.org/profile/divyansh1502"><img src="./Images/takeUforward.jpg" alt="TakeUForward" width="65"/></a> | <a href="https://leetcode.com/u/divyansh_5ingh/"><img src="./Images/leetcode.png" alt="LeetCode" width="65"/></a> | <a href="https://www.geeksforgeeks.org/profile/divyansh1502"><img src="./Images/gfg.png" alt="GeeksforGeeks" width="65"/></a> |
+|                             <a href="https://takeuforward.org/profile/divyansh1502">TakeUForward</a>                             |                           <a href="https://leetcode.com/u/divyansh_5ingh/">LeetCode</a>                           |                         <a href="https://www.geeksforgeeks.org/profile/divyansh1502">GeeksforGeeks</a>                        |
 
 </p>
 
