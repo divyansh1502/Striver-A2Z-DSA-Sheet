@@ -42,13 +42,13 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<a href="https://leetcode.com/u/divyansh1502/">
+<a href="https://leetcode.com/u/divyansh_5ingh/">
   LeetCode
 </a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<a href="https://www.geeksforgeeks.org/profile/divyanshsipew6">
+<a href="https://www.geeksforgeeks.org/profile/divyansh1502">
   GeeksforGeeks
 </a>
 
