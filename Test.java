@@ -1,16 +1,18 @@
+
+import java.util.*;
+
 public class Test {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4};
-        System.out.println(missingNumber(arr));
+        
+        longestSubarray("aabaacbbbbbdaskjhfdasbjkkADSJGJKLAskjlaSBJKBJKACsbjklacSBJACsbjklbhjklacSBHJLACsbhjladsbhjlbhjlacsBHJACsvbhjacSbbciaaib");
     }
-    static int missingNumber(int[] arr) {
-        int xor1 = 0, xor2 = 0;
-        int n = arr.length + 1;
-        for (int i = 0; i < arr.length; i++) {
-            xor2 = xor2 ^ arr[i];
-            xor1 = xor1 ^ (i + 1);
-        }
-        xor1 = xor1 ^ n;
-        return xor1 ^ xor2;
+    public static void longestSubarray(String s) {
+
+       Map<Character, Integer> map = new HashMap<>();
+       for (int i = 0; i < s.length(); i++) {
+        char ch = s.charAt(i);
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
+       }
+       System.out.println(map);
     }
 }
