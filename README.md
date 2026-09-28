@@ -22,13 +22,13 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<a href="https://leetcode.com/u/divyansh1502/">
+<a href="https://leetcode.com/u/divyansh_5ingh/">
   <img src="./Images/leetcode.png" alt="LeetCode" width="75"/>
 </a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<a href="https://www.geeksforgeeks.org/profile/divyanshsipew6">
+<a href="https://www.geeksforgeeks.org/profile/divyansh1502">
   <img src="./Images/gfg.png" alt="GeeksforGeeks" width="75"/>
 </a>
 
