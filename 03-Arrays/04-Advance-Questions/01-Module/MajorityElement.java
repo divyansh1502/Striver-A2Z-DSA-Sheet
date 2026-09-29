@@ -3,6 +3,7 @@ public class MajorityElement {
         int[] arr = {1, 1, 5, 9, 6, 1, 1, 2, 2, 2, 5, 2, 9, 2, 2};
         System.out.println(majorityElement(arr));
     }
+    // Moore's Voting Algo.
     static int majorityElement(int[] arr) {
         int count = 0;
         int candidate = 0;
