@@ -7,16 +7,16 @@ public class RearrangeArrayBySign {
     }
     static int[] rearrangeArray(int[] nums) {
         int[] newArr = new int[nums.length];
-        int positive = 0;
-        int negative = 1;
-        for (int i = 0; i < nums.length; i++) {
+        int posIndex = 0;
+        int negIndex = 1;
+        for(int i = 0; i < nums.length; i++) {
             if(nums[i] < 0) {
-                newArr[negative] = nums[i];
-                negative = negative + 2;
+                newArr[negIndex] = nums[i];
+                negIndex += 2;
             }
             else {
-                newArr[positive] = nums[i];
-                positive = positive + 2;
+                newArr[posIndex] = nums[i];
+                posIndex += 2;
             }
         }
         return newArr;
