@@ -42,3 +42,26 @@ class Solution {
 }
 
 */
+
+/* --> gfg soln
+
+class Solution {
+    ArrayList<Integer> nthRowOfPascalTriangle(int n) {
+        // code here
+        return printRow(n - 1, n - 1);
+    }
+    ArrayList<Integer> printRow(int n, int r) {
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
+        long res = 1;
+        
+        for(int i = 1; i <= n; i++) {
+            res = res * (n - i + 1);
+            res = res / i;
+            list.add((int)res);
+        }
+        return list;
+    }
+}
+
+*/
