@@ -23,7 +23,7 @@ public class MergeSort {
         int k = 0;
 
         while(i < first.length && j < second.length) {
-            if(first[i] < second[i]) {
+            if(first[i] < second[j]) {
                 mix[k] = first[i];
                 i++;
             } else {
