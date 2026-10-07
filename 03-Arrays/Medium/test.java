@@ -23,7 +23,7 @@ public class test {
                     newArr[k++] = nums2[j];
                 }
                 j++;
-            }
+            }//
         }
         while(i < nums1.length) {
             if(k == 0 || nums1[i] != newArr[k - 1]) {
