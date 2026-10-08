@@ -1,28 +1,22 @@
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class test {
     public static void main(String[] args) {
-        int[] nums1 = {1, 4, 7, 10};
-        int[] nums2 = {1, 2, 3, 4, 10};
-        System.out.println(Arrays.toString(intersection(nums1, nums2)));
+        int[] nums1 = {2, 3, 6, 9, 11};
+        System.out.println(Arrays.toString(missing(nums1, 15)));
     }
-    static int[] intersection(int[] nums1, int[] nums2) {
-        int[] newArr = new int[nums1.length];
-        int i = 0;
-        int j = 0;
-        int k = 0;
-
-       while(i < nums1.length && j < nums2.length) {
-        if(nums1[i] < nums2[j]) {
-            i++;
-        } else if(nums2[j] < nums1[i]){
-            j++;
-        } else {
-            newArr[k++] = nums1[i];
-            i++;
-            j++;
-        }
+    static int[] missing(int[] nums, int target) {
+        Map<Integer, Integer>  map = new HashMap<>();
+       for (int i = 0; i < nums.length; i++) {
+        int required = target - nums[i];
+            if(map.containsKey(required)) {
+                return new int[]{map.get(required), i};
+            }
+            map.put(nums[i], i);
        }
-       return Arrays.copyOfRange(newArr, 0, k);
+       return new int[]{-1, -1};
     }
 }
+
