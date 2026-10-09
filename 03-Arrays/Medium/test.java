@@ -7,7 +7,7 @@ public class test {
         int[] nums1 = {2, 3, 6, 9, 11};
         System.out.println(Arrays.toString(missing(nums1, 15)));
     }
-    static int[] missing(int[] nums, int target) {
+    static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer>  map = new HashMap<>();
        for (int i = 0; i < nums.length; i++) {
         int required = target - nums[i];
@@ -16,7 +16,7 @@ public class test {
             }
             map.put(nums[i], i);
        }
-       return new int[]{-1, -1};/
+       return new int[]{-1, -1};
     }
 }
 
