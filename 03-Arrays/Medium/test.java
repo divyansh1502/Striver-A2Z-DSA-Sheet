@@ -1,22 +1,22 @@
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class test {
     public static void main(String[] args) {
-        int[] nums1 = {2, 3, 6, 9, 11};
-        System.out.println(Arrays.toString(missing(nums1, 15)));
+        int[] arr = {4, 2, 2, 6, 4};
+        System.out.println(subarraysWithXorK(arr, 6));
     }
-    static int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer>  map = new HashMap<>();
-       for (int i = 0; i < nums.length; i++) {
-        int required = target - nums[i];
-            if(map.containsKey(required)) {
-                return new int[]{map.get(required), i};
-            }
-            map.put(nums[i], i);
-       }
-       return new int[]{-1, -1};
+    public static int subarraysWithXorK(int[] nums, int k) {
+      Map<Integer, Integer> map = new HashMap<>();
+      int xor = 0, count = 0;
+      map.put(0, 1);
+      for(int i = 0; i < nums.length; i++) {
+            xor ^= nums[i];
+
+            count += map.getOrDefault(xor ^ k, 0);
+            
+            map.put(xor, map.getOrDefault(xor, 0) + 1);
+      }
+      return count;
     }
 }
 
