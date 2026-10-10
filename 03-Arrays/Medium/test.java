@@ -6,16 +6,19 @@ public class test {
         System.out.println(Arrays.toString(setMisMatch(arr)));
     }
     public static int[] setMisMatch(int[] nums) {
-        Set<Integer> set = new HashSet<>();
+        Map<Integer, Integer> map = new HashMap<>();
         int repeating = -1;
         int missing = -1;
-        for (int num : nums) {
-            if(!set.add(num)) {
-                repeating = num;
+        for(int num : nums) {
+            map.put(num, map.getOrDefault(num, 0) + 1);
+        }
+        for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            if(entry.getValue() == 2) {
+                repeating = entry.getKey();
             }
         }
         for (int i = 1; i <= nums.length; i++) {
-            if(!set.contains(i)) {
+            if(!map.containsKey(i)) {
                 missing = i;
             }
         }
@@ -42,5 +45,23 @@ int i = 0;
         }    
     }
     return new int[]{-1, -1};
+
+
+
+
+    Set<Integer> set = new HashSet<>();
+        int repeating = -1;
+        int missing = -1;
+        for (int num : nums) {
+            if(!set.add(num)) {
+                repeating = num;
+            }
+        }
+        for (int i = 1; i <= nums.length; i++) {
+            if(!set.contains(i)) {
+                missing = i;
+            }
+        }
+        return new int[]{repeating, missing};
 
 */
