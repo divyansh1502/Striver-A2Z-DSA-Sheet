@@ -1,9 +1,9 @@
 
 public class UpperBound {
- public static void main(String[] args) {
-    int[] arr = {2, 6, 9, 12, 14, 17};
-    System.out.println(upperBound(arr, 9));
- }  
+    public static void main(String[] args) {
+        int[] arr = {2, 6, 9, 12, 14, 17};
+        System.out.println(upperBound(arr, 9));
+    }  
     static int upperBound(int[] arr, int x) {
         int start = 0;
         int end = arr.length - 1;
