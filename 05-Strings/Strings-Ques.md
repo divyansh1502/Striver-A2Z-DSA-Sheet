@@ -1,24 +1,26 @@
 <div align="center">
 
-🔤 Striver A2Z — Strings Practice List
+# 🔍 Striver A2Z — Strings Practice List
 
-A quick revision hub: pick a problem, attempt it yourself, then open the platform you prefer.
+*A quick revision hub: pick a problem, attempt it yourself, then open the platform you prefer.*
 
+![Total](https://img.shields.io/badge/Total-15_Problems-6C63FF?style=for-the-badge)
+![Easy](https://img.shields.io/badge/Easy-9-2ea44f?style=for-the-badge)
+![Medium](https://img.shields.io/badge/Medium-6-f0ad00?style=for-the-badge)
+![Hard](https://img.shields.io/badge/Hard-0-e5484d?style=for-the-badge)
 
-
-
-
-
-📖 Official Striver A2Z DSA Sheet
+**[📖 Official Striver A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet)**
 
 </div>
 
-[!NOTE]
-This list covers the classic Strings (Basic and Medium) practice set: 7 basic/easy problems and 7 medium-section problems. Platform availability differs by problem. A "—" means no direct link is listed here; equivalent problem wording may vary by platform.
+> [!NOTE]
+> Platform availability differs by problem. A "—" means there is no exact/appropriate problem on that platform. For some problems, the linked problem has equivalent (not identical) wording. Difficulty labels follow the ratings of the linked platform problems.
+
+---
 
 <div align="center">
 
-🟢 Basic and Easy String Problems — 7 Problems
+## 📘 Strings — Basic & Easy — 7 Problems
 
 <table>
 <thead>
@@ -35,7 +37,7 @@ This list covers the classic Strings (Basic and Medium) practice set: 7 basic/ea
 <tr>
 <td align="center">1</td>
 <td><b>Remove Outermost Parentheses</b></td>
-<td align="center">🟡&nbsp;Medium</td>
+<td align="center">🟢&nbsp;Easy</td>
 <td align="center">—</td>
 <td align="center"><a href="https://leetcode.com/problems/remove-outermost-parentheses/"><img src="../assets/leetcode.png" width="24" height="24" alt="LeetCode"></a></td>
 <td align="center"><a href="https://takeuforward.org/practice/dsa/remove-outermost-parentheses"><img src="../assets/takeUforward.jpg" width="24" height="24" alt="TUF"></a></td>
@@ -44,7 +46,7 @@ This list covers the classic Strings (Basic and Medium) practice set: 7 basic/ea
 <td align="center">2</td>
 <td><b>Reverse Words in a String</b></td>
 <td align="center">🟡&nbsp;Medium</td>
-<td align="center">—</td>
+<td align="center"><a href="https://www.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1"><img src="../assets/gfg.png" width="24" height="24" alt="GFG"></a></td>
 <td align="center"><a href="https://leetcode.com/problems/reverse-words-in-a-string/"><img src="../assets/leetcode.png" width="24" height="24" alt="LeetCode"></a></td>
 <td align="center"><a href="https://takeuforward.org/practice/dsa/reverse-words-in-a-string"><img src="../assets/takeUforward.jpg" width="24" height="24" alt="TUF"></a></td>
 </tr>
@@ -68,34 +70,32 @@ This list covers the classic Strings (Basic and Medium) practice set: 7 basic/ea
 <td align="center">5</td>
 <td><b>Isomorphic Strings</b></td>
 <td align="center">🟢&nbsp;Easy</td>
-<td align="center">—</td>
+<td align="center"><a href="https://www.geeksforgeeks.org/problems/isomorphic-strings-1587115620/1"><img src="../assets/gfg.png" width="24" height="24" alt="GFG"></a></td>
 <td align="center"><a href="https://leetcode.com/problems/isomorphic-strings/"><img src="../assets/leetcode.png" width="24" height="24" alt="LeetCode"></a></td>
-<td align="center"><a href="https://takeuforward.org/practice/dsa/isomorphic-string"><img src="../assets/takeUforward.jpg" width="24" height="24" alt="TUF"></a></td>
+<td align="center"><a href="https://takeuforward.org/practice/dsa/isomorphic-strings"><img src="../assets/takeUforward.jpg" width="24" height="24" alt="TUF"></a></td>
 </tr>
 <tr>
 <td align="center">6</td>
-<td><b>Rotate String</b></td>
+<td><b>Check Whether One String is a Rotation of Another</b></td>
 <td align="center">🟢&nbsp;Easy</td>
 <td align="center">—</td>
 <td align="center"><a href="https://leetcode.com/problems/rotate-string/"><img src="../assets/leetcode.png" width="24" height="24" alt="LeetCode"></a></td>
-<td align="center"><a href="https://takeuforward.org/practice/dsa/rotate-string"><img src="../assets/takeUforward.jpg" width="24" height="24" alt="TUF"></a></td>
+<td align="center"><a href="https://takeuforward.org/practice/dsa/check-if-one-string-is-rotation-of-another"><img src="../assets/takeUforward.jpg" width="24" height="24" alt="TUF"></a></td>
 </tr>
 <tr>
 <td align="center">7</td>
-<td><b>Valid Anagram (Check if Two Strings Are Anagrams)</b></td>
+<td><b>Check if Two Strings are Anagrams</b></td>
 <td align="center">🟢&nbsp;Easy</td>
-<td align="center">—</td>
+<td align="center"><a href="https://www.geeksforgeeks.org/problems/anagram-1587115620/1"><img src="../assets/gfg.png" width="24" height="24" alt="GFG"></a></td>
 <td align="center"><a href="https://leetcode.com/problems/valid-anagram/"><img src="../assets/leetcode.png" width="24" height="24" alt="LeetCode"></a></td>
-<td align="center"><a href="https://takeuforward.org/practice/dsa/check-if-two-strings-are-anagram-of-each-other"><img src="../assets/takeUforward.jpg" width="24" height="24" alt="TUF"></a></td>
+<td align="center"><a href="https://takeuforward.org/practice/dsa/check-if-two-strings-are-anagrams"><img src="../assets/takeUforward.jpg" width="24" height="24" alt="TUF"></a></td>
 </tr>
 </tbody>
 </table>
 
-</div>
+---
 
-<div align="center">
-
-🧩 Medium String Problems — 7 Problems
+## 🎯 Strings — Medium — 8 Problems
 
 <table>
 <thead>
@@ -135,14 +135,22 @@ This list covers the classic Strings (Basic and Medium) practice set: 7 basic/ea
 </tr>
 <tr>
 <td align="center">11</td>
-<td><b>String to Integer (atoi)</b></td>
+<td><b>Implement Atoi</b></td>
 <td align="center">🟡&nbsp;Medium</td>
 <td align="center">—</td>
 <td align="center"><a href="https://leetcode.com/problems/string-to-integer-atoi/"><img src="../assets/leetcode.png" width="24" height="24" alt="LeetCode"></a></td>
-<td align="center"><a href="https://takeuforward.org/practice/dsa/string-to-integer-atoi"><img src="../assets/takeUforward.jpg" width="24" height="24" alt="TUF"></a></td>
+<td align="center"><a href="https://takeuforward.org/practice/dsa/implement-atoi"><img src="../assets/takeUforward.jpg" width="24" height="24" alt="TUF"></a></td>
 </tr>
 <tr>
 <td align="center">12</td>
+<td><b>Count Number of Substrings</b></td>
+<td align="center">🟡&nbsp;Medium</td>
+<td align="center"><a href="https://www.geeksforgeeks.org/problems/count-number-of-substrings4528/1"><img src="../assets/gfg.png" width="24" height="24" alt="GFG"></a></td>
+<td align="center">—</td>
+<td align="center"><a href="https://takeuforward.org/practice/dsa/count-number-of-substrings"><img src="../assets/takeUforward.jpg" width="24" height="24" alt="TUF"></a></td>
+</tr>
+<tr>
+<td align="center">13</td>
 <td><b>Longest Palindromic Substring</b></td>
 <td align="center">🟡&nbsp;Medium</td>
 <td align="center">—</td>
@@ -150,7 +158,7 @@ This list covers the classic Strings (Basic and Medium) practice set: 7 basic/ea
 <td align="center"><a href="https://takeuforward.org/practice/dsa/longest-palindromic-substring"><img src="../assets/takeUforward.jpg" width="24" height="24" alt="TUF"></a></td>
 </tr>
 <tr>
-<td align="center">13</td>
+<td align="center">14</td>
 <td><b>Sum of Beauty of All Substrings</b></td>
 <td align="center">🟡&nbsp;Medium</td>
 <td align="center">—</td>
@@ -158,10 +166,10 @@ This list covers the classic Strings (Basic and Medium) practice set: 7 basic/ea
 <td align="center"><a href="https://takeuforward.org/practice/dsa/sum-of-beauty-of-all-substrings"><img src="../assets/takeUforward.jpg" width="24" height="24" alt="TUF"></a></td>
 </tr>
 <tr>
-<td align="center">14</td>
+<td align="center">15</td>
 <td><b>Reverse Every Word in a String</b></td>
 <td align="center">🟢&nbsp;Easy</td>
-<td align="center">—</td>
+<td align="center"><a href="https://www.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1"><img src="../assets/gfg.png" width="24" height="24" alt="GFG"></a></td>
 <td align="center">—</td>
 <td align="center"><a href="https://takeuforward.org/practice/dsa/reverse-every-word-in-a-string"><img src="../assets/takeUforward.jpg" width="24" height="24" alt="TUF"></a></td>
 </tr>
@@ -170,37 +178,30 @@ This list covers the classic Strings (Basic and Medium) practice set: 7 basic/ea
 
 </div>
 
-🧠 Recommended Practice Flow
+---
 
-Read the problem only.
+## 🧠 Recommended Practice Flow
 
-Try a straightforward approach before optimizing.
+1. Read the problem only.
+2. Try the brute-force approach first (nested loops / extra string or map).
+3. Identify the pattern: two pointers, frequency array / hashing, stack-or-counter for parentheses, string traversal with parsing rules, or expand-around-center.
+4. Decide the data structure (`int[26]`, `unordered_map`, `stack`, or plain counters) and the traversal order.
+5. Write the optimal solution yourself in VS Code.
+6. Dry-run at least one example, including edge cases (empty string, single character, all same characters, leading/trailing spaces).
+7. Only then check the editorial/video if needed.
 
-Identify the pattern: counting/frequency, two pointers, string parsing, or expand-around-center.
+### ✅ Quick Revision Checklist
 
-Write the solution yourself in VS Code.
+- [ ] Strings — Basic & Easy — 7
+- [ ] Strings — Medium — 8
+- [ ] Total — 15
 
-Dry-run at least one example, including an edge case.
+### 🔗 Related Resources
 
-Only then check the editorial/video if needed.
+- [Official Striver A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet)
+- [Take U Forward](https://takeuforward.org/)
+- [LeetCode](https://leetcode.com/)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)
 
-✅ Quick Revision Checklist
-
-Basic and Easy String Problems — 7
-
-Medium String Problems — 7
-
-Total — 14
-
-🔗 Related Resources
-
-Official Striver A2Z DSA Sheet
-
-Take U Forward
-
-LeetCode
-
-GeeksforGeeks
-
-[!IMPORTANT]
-The classic Striver A2Z Strings (Basic and Medium) set is represented here as 7 basic/easy + 7 medium-section problems. TUF may revise its curriculum and practice URLs over time; verify against the official sheet if its lineup changes.
+> [!IMPORTANT]
+> This list follows the classic Striver A2Z "Strings [Basic and Medium]" module (7 basic + 8 medium). TUF keeps evolving the A2Z curriculum, so newer versions of the sheet may contain additional or reorganized material. Advanced string algorithms (KMP, Z-function, Rabin-Karp, etc.) sit in a separate optional section of the sheet and are not included here.
