@@ -916,7 +916,7 @@ Not sure it works?                   →  Is feasible(x) monotonic? If not, it's
 2. Can I check one candidate in O(n) with a greedy loop? (feasible(x))
 3. Does feasible flip only ONCE (NO...NO YES...YES)?     (monotonic)
 
-3 × YES  →  Binary Search on Answer.
+3 × YES  →  Binary Search on Answer..
 ```
 
 <div align="center">
