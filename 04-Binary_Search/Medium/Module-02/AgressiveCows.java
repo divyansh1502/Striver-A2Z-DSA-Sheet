@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class AgressiveCows {
     public static void main(String[] args) {
-        int[] stall = {1, 4, 7, 10, 9};
+        int[] stall = {1, 4, 7, 3, 6,  10, 9};
         System.out.println(agressiveCows(stall, 4));
     }
     static int agressiveCows(int[] arr, int k) {
