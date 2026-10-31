@@ -11,7 +11,7 @@ public class InsertionAtTheEnd {
 
         Node head = first;
 
-        Node newNode = new Node(5);
+        Node newNode = new Node(50);
 
         Node current = head;
 
@@ -23,8 +23,9 @@ public class InsertionAtTheEnd {
         current = head;
 
         while(current != null) {
-            System.out.println(current.data);
+            System.out.print(current.data + " -> ");
             current = current.next;
         }
+        System.out.println("null");
     }
 }
