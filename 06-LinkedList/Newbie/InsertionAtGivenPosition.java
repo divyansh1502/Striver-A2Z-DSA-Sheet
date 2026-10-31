@@ -16,9 +16,9 @@ public class InsertionAtGivenPosition {
         int position = 2;
 
         Node current = head;
-        int counter = 0;
+        int counter = 1;
 
-        while(current != null && counter < position - 1) {
+        while(current != null && counter < position) {
             counter++;
             current = current.next;
         }
