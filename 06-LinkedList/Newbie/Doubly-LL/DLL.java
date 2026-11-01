@@ -5,7 +5,8 @@ public class DLL {
 
         Node head = doublyLL(arr);
         // head = deleteHead(head);
-        head = deleteTail(head);
+        // head = deleteTail(head);
+        head = removeKthElement(head, 2);
         Node temp = head;
         while(temp != null) {
             System.out.print(temp.data + " -> ");
@@ -50,7 +51,44 @@ public class DLL {
         tail.prev = null;
         return head;
     }
-    
+    static Node removeKthElement(Node head, int k) {
+        if(head == null) {
+            return null;
+        }
+        int cnt = 0;
+        Node kNode = head;
+
+        while(kNode != null) {
+            cnt++;
+            if(cnt == k) {
+                break;
+            }
+            kNode = kNode.next;
+        }
+
+        if(kNode.next == null && kNode.prev == null) {
+            return null;
+        }
+
+        else if(kNode.prev == null) {
+            return deleteHead(head);
+        } 
+        
+        else if(kNode.next == null) {
+            return deleteTail(head);
+        }
+
+        Node back = kNode.prev;
+        Node front = kNode.next;
+
+        back.next = front;
+        front.prev = back;
+
+        kNode.next = null;
+        kNode.prev = null;
+
+        return head;
+    }
 }
 class Node {
     int data;
