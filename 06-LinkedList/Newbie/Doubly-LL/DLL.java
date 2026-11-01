@@ -9,7 +9,9 @@ public class DLL {
         // head = removeKthElement(head, 2);
         // deleteNode(head.next.next);
         // head = insertBeforeHead(head, 10);
-        head = insertBeforeTail(head, 20);
+        // head = insertBeforeTail(head, 20);
+        // head = insertBeforeKthElement(head, 50, 4);
+        insertBeforeNode(head.next.next, 100);
         Node temp = head;
         while(temp != null) {
             System.out.print(temp.data + " -> ");
@@ -131,6 +133,35 @@ public class DLL {
         tail.prev = newNode;
 
         return head;
+    }
+    static Node insertBeforeKthElement(Node head, int val, int k) {
+        if(k == 1) {
+            return insertBeforeHead(head, val);
+        }
+        Node temp = head;
+        int cnt = 0;
+
+        while(temp != null) {
+            cnt++;
+            if(cnt == k) {
+                break;
+            }
+            temp = temp.next;
+        }
+        Node back = temp.prev;
+
+        Node newNode = new Node(val, temp, back);
+        back.next = newNode;
+        temp.prev = newNode;
+
+        return head;
+    }
+    static void insertBeforeNode(Node node, int val) {
+        Node back = node.prev;
+        Node newNode = new Node(val, node, back);
+
+        back.next = newNode;
+        node.prev = newNode;
     }
 }
 class Node {
