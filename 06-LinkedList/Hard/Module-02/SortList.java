@@ -1,5 +1,4 @@
 
-
 public class SortList {
     public static void main(String[] args) {
         Node head = new Node(4);
@@ -12,7 +11,7 @@ public class SortList {
         printList(head);
 
         head = sortList(head);
-        
+
         System.out.println("List after sorting");
         printList(head);
     }
