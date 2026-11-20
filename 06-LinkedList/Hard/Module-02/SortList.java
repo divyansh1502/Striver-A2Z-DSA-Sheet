@@ -17,7 +17,7 @@ public class SortList {
     }
     static Node sortList(Node head) {
 
-        if(head == null || head.next == null) return head;
+        if(head == null || head.next == null) return head;//
 
         Node mid = getMid(head);
 
@@ -71,4 +71,4 @@ public class SortList {
         }
         System.out.println("null");
     }
-}
+}
